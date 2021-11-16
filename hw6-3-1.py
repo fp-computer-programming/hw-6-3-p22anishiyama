@@ -11,8 +11,10 @@ ana_sorted_2nd.sort()
 if(ana_sorted == ana_sorted_2nd):
     print(
         "The word {0} is an anagram of {1}."
-        .format(ana_input, ana_input_2nd))
+        .format(ana_input, ana_input_2nd)
+        )
 else:
     print(
         "The word {0} is not an anagram of {1}."
-        .format(ana_input, ana_input_2nd))
+        .format(ana_input, ana_input_2nd)
+        )
